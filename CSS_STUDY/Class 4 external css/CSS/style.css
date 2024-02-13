@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h2 {
+  color: green;
+  font-size: 8px;
+}
+
+#header,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
