@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+
+body {
+  background-color: red;
+}
+.painel {
+  background-color: floralwhite;
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  font-family: "Baloo 2", sans-serif;
+}
+
+#btnY {
+  width: 60px;
+  text-decoration: none;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  margin-left: -60px;
+}
+#btnN {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  margin-left: 5px;
+}
