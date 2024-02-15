@@ -1,0 +1,18 @@
+/* CLASS CSS */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background: gray;
+}
+
+#title {
+  font-size: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
