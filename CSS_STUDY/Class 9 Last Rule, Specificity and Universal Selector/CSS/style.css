@@ -1,0 +1,25 @@
+/* Last Rule and Specificity * Universal Selector */
+
+.special {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+.heading {
+  color: green;
+}
+
+#heading {
+  color: black;
+}
+
+* {
+  color: rgb(77, 2, 100);
+}

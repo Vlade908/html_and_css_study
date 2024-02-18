@@ -9,3 +9,8 @@
   color: red;
   background: black;
 }
+
+span {
+  background: white;
+  text-transform: uppercase;
+}
