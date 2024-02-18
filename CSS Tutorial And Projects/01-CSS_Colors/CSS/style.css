@@ -1,0 +1,99 @@
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR BACKGROUND */
+
+/* #first {
+  color: #ffffff;
+  background-color: black;
+}
+
+#second {
+  color: red;
+  background: rgb(249, 253, 3);
+} */
+
+/* ================================================= */
+
+/* RGB RED GREEN BLUE 0-255 */
+
+/* #first {
+  color: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
+}
+
+#second {
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+
+#third {
+  color: rgb(0, 0, 255);
+  background: rgb(250, 90, 230);
+}
+
+body {
+  background: rgb(150, 34, 210);
+} */
+
+/* END - RGB RED GREEN BLUE 0-255 - */
+
+/* ================================================ */
+
+/* REBA A-opacity/transparency 0-1 */
+
+/* #first {
+  color: rgb(255, 0, 0, 1);
+  background: rgba(0, 0, 0, 0);
+}
+
+#second {
+  color: rgb(255, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#third {
+  color: rgb(255, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+#four {
+  /* color: rgb(255, 0, 0, 0); */
+/* color: rgb(0, 255, 0, 0.67);
+  background: rgba(0, 0, 0, 1);
+} 
+
+body {
+  background: rgba(210, 89, 210, 0.4);
+}
+*/
+
+/* END - REBA A-opacity/transparency 0-1 */
+/* ===================================================================== */
+
+/* HEX Values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+          10    11     12    13    14    15  
+
+          #FF0000 - RED
+          #00FF00 - GREEN
+*/
+#first {
+  color: #ff0000;
+  background: #000000;
+}
+
+#second {
+  color: #fff;
+  background: #00ff00;
+}
+
+#third {
+  color: #0000ff;
+  background: #f15025;
+}
+
+#four {
+  color: #f234ad;
+  background: #222;
+}
+
+/* END of HEX Values */
