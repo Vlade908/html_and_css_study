@@ -1,0 +1,39 @@
+/* PIXELS - absolute value, one dot on screen
+FONT-SIZE - size of the font
+WIDGT - width of an element
+HEIGHT - height of an eçement
+ */
+
+/* h1 {
+  font-size: 60px;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 400px;
+} */
+
+/* ========================================================= */
+
+/* % - percent. RELATIVE UNIT/VALUE. Depends on the parent */
+
+.inner {
+  width: 25%;
+  height: 100%;
+  background: red;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+  background: green;
+}
+
+/* ============================================== */
