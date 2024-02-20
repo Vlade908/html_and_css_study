@@ -21,10 +21,6 @@ span {
   font-size: 1.26rem;
 }
 
-.hero p {
-  font-size: 20px;
-}
-
 .hero-btn {
   background: var(--redCol);
   color: white;
