@@ -1,17 +1,18 @@
 :root {
   --redCol: rgb(248, 3, 3);
+  --heighNav: 5rem;
 }
 * {
   margin: 0;
 }
 .navbar {
   background: white;
-  height: 4rem;
+  height: var(--heighNav);
 }
 
 .hero {
   background: rgb(0, 0, 0);
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - var(--heighNav));
   color: white;
 }
 
