@@ -1,0 +1,30 @@
+:root {
+  --redCol: rgb(248, 3, 3);
+}
+* {
+  margin: 0;
+}
+.navbar {
+  background: white;
+  height: 4rem;
+}
+
+.hero {
+  background: rgb(0, 0, 0);
+  min-height: calc(100vh - 4rem);
+  color: white;
+}
+
+span {
+  color: var(--redCol);
+  font-size: 1.26rem;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.hero-btn {
+  background: var(--redCol);
+  color: white;
+}
