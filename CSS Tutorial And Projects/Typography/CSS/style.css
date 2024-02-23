@@ -9,3 +9,16 @@ body {
 h1 {
   font-family: "Permanent Marker", cursive;
 }
+
+/* 
+system fonts - a font that's already installed on device of the user.
+
+- fast load times
+- less headaches
+- project will look different in each system
+
+"-apple-system, BlinkMacSystem/font" - system of font on apple devices
+
+"Segoe UI" - Used on windows Systems
+"Roboto" - System Font for Android Devices
+*/
