@@ -2,13 +2,18 @@
 font-size - size of the fonts
 font-family - describes the font of the element
 */
-body {
+
+/* --------------------------------------------- */
+
+/* body {
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
   font-family: "Permanent Marker", cursive;
-}
+} */
+
+/* --------------------------------------------- */
 
 /* 
 system fonts - a font that's already installed on device of the user.
@@ -22,3 +27,12 @@ system fonts - a font that's already installed on device of the user.
 "Segoe UI" - Used on windows Systems
 "Roboto" - System Font for Android Devices
 */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
