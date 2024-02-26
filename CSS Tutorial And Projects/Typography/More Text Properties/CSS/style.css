@@ -5,3 +5,7 @@ word-spacing
 text-transform
 text-decoration
 */
+
+body {
+  line-height: 30px;
+}
