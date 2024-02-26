@@ -43,3 +43,7 @@ body {
 .two {
   word-spacing: 10px;
 }
+
+.three {
+  text-transform: lowercase;
+}
