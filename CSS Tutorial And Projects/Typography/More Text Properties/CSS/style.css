@@ -6,6 +6,34 @@ text-transform
 text-decoration
 */
 
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(#ffffff, #c2c2c2);
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#f6ffc1, #7ef87a);
+  border-radius: 4px;
+}
+
 body {
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.one {
+  letter-spacing: 0.5rem;
+}
+
+.two {
+  word-spacing: 10px;
 }
