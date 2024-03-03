@@ -1,6 +1,10 @@
 /* 
-CSS BOX MODEL, PADDING, MARGIN, BORDER
+CSS BOX MODEL
 */
+
+* {
+  margin: 0;
+}
 
 h1,
 p {
@@ -9,14 +13,13 @@ p {
 
 h1 {
   background: red;
-  padding-top: 40px;
-  padding-right: 20px;
-  padding-bottom: 30px;
-  padding-left: 50px;
+  padding: 20px;
+  margin: 3rem;
 }
 
 p {
-  margin-top: 40px;
+  /* margin: 20px 40px; */
+  margin: 4rem 4px 50px 10px;
   background: blue;
   /* padding: 40px; */
   /* padding: 30px 60px; */
